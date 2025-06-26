@@ -4,6 +4,8 @@ import re
 import csv 
 
 L = instaloader.Instaloader()
+
+
 profile = instaloader.Profile.from_username(L.context, "schoonerscorer")
 
 with open("schooner_data.csv", "w", newline='') as file:
